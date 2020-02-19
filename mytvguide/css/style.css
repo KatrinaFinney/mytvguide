@@ -1,0 +1,15 @@
+#shows img, #show img {
+    width:95%;
+
+}
+
+@media(min-width:960px){
+
+#shows .col-md-3 .well{
+    height:415px;
+}
+
+#shows .col-md-3 img{
+    height:300px;
+}
+}
