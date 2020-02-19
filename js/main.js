@@ -62,8 +62,10 @@ function getShow(){
         <li class="list-group-item"><strong>Overview:</strong> ${show.overview}</li>
          <li class="list-group-item"><strong>
          Number of Seasons:</strong> ${show.number_of_seasons}</li>
+        if(${show.next_episode_to_air.air_date}) {
         <li class="list-group-item"><strong>Next Episode to Air:</strong> ${show.next_episode_to_air.air_date}</li>
-        
+        }
+        else(err => console.log(err))
         </ul>
         </div>
         </div>
